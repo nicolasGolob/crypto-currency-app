@@ -1,5 +1,6 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
+import TableData from './TableData';
 
 function App() {
   const [item, setItem] = useState([]);
@@ -19,20 +20,15 @@ function App() {
   return (
     <div className="App">
       <>
-      <table>
-          <thead>
-              <tr>
-                  <th>Symbol</th>
-                  <th>Name</th>
-              </tr>
-          </thead>
-          <tbody>
-             {item.map(i=><tr key={i.id}>
-                  <td>{i.symbol}</td>
-                  <td>{i.name}</td>                 
-              </tr>)} 
-          </tbody>
-      </table>
+      {item.map(i=> 
+        <TableData 
+          key={i.id} 
+          name={i.name}
+          image={i.image}
+          symbol={i.symbol}
+          current_price={i.current_price}
+          />
+        )}
       </>
     </div>
   );
