@@ -1,0 +1,14 @@
+.crypto-current-price{
+    font-weight:900;
+}
+
+.crypto-percent-red{
+    color:red;
+    font-weight:900;
+}
+
+.crypto-percent-green{
+    color:green;
+    font-weight:900;
+
+}
