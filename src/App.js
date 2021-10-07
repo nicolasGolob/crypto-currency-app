@@ -31,7 +31,7 @@ function App() {
     <div className="container py-3">
       <div className="row"> 
         <form className="col-12 text-center">
-          <h3>Search a bitcoin with her name</h3>
+          <h3>Search a Crypto Currency</h3>
           <input type="text" className="search-input mb-2" onChange={handleSearch} placeholder="Search a crypto"/>
         </form>
       </div>
