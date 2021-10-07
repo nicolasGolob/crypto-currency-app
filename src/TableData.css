@@ -1,3 +1,11 @@
+.search-input {
+    background-color: #0e0e18;
+    border-radius: 8px;
+    border: 1px solid rgba(201, 201, 201, 0.8);
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
 th {
     color: rgb(1, 122, 236);
 }
