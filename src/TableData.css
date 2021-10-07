@@ -1,0 +1,15 @@
+th {
+    color: rgb(1, 122, 236);
+}
+
+td {
+    width: 100px;
+}
+
+img {
+    height: 50px;
+}
+
+tbody {
+    color: rgba(102, 102, 102, 0.5);
+}
